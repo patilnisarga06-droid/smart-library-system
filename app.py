@@ -129,11 +129,21 @@ st.markdown("""
 .book-card h4 { color: #183653; margin: 0 0 8px 0; }
 .book-card p { color: #526579; margin: 4px 0; font-size: 0.92rem; }
 .metric-box {
-    background: white;
-    border: 1px solid #e0e8f0;
+    background: #17365D;
+    border: 1px solid #285b83;
     padding: 15px;
     border-radius: 12px;
     text-align: center;
+}
+
+.metric-box h2 {
+    color: white !important;
+    font-size: 32px;
+}
+
+.metric-box p {
+    color: white !important;
+    font-size: 16px;
 }
 </style>
 """, unsafe_allow_html=True)
